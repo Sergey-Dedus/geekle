@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://test-geekle/./src/sass/index.scss"],"names":[],"mappings":"AAAA,KACE,wCAAuC","file":"main.css","sourcesContent":["body {\r\n  background-image: url(../img/Frame.jpg);\r\n}\r\n"],"sourceRoot":""}
