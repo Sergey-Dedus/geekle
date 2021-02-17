@@ -1,0 +1,75 @@
+.track-container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 3vh;
+}
+
+.grid {
+  width: 95%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  &__col {
+    width: 49%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 1px solid blue;
+  }
+}
+
+.text-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  &__title {
+    font-size: 4.5vw;
+    font-weight: bold;
+  }
+  &__about {
+    font-size: 1.5vw;
+    text-align: center;
+  }
+}
+
+.event-section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid yellow;
+  &__col {
+    width: 100%;
+    height: 33.3333%;
+    border: 1px dotted aquamarine;
+  }
+}
+
+.event-content {
+  width: 100%;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  //   position: relative;
+  &__wrapper {
+    width: 90%;
+    height: 95%;
+    border: 1px solid white;
+    margin-left: 1vw;
+    position: relative;
+  }
+  &__time-name-container {
+  }
+  &__logo {
+  }
+  &__photo {
+  }
+  &__description {
+    position: absolute;
+  }
+  &__button-container {
+  }
+}
