@@ -14,18 +14,18 @@
     align-items: center;
   }
   &__title {
-    font-size: 6vw;
+    font-size: calc(20px + 5vw);
     margin-top: 4vh;
     font-family: "Jost", sans-serif;
     color: $color_3;
   }
   &__subtitle {
-    font-size: 1.5vw;
+    font-size: calc(8px + 0.5vw);
     color: $color_1;
     text-transform: uppercase;
   }
   &__description {
-    font-size: 1vw;
+    font-size: calc(7px + 0.5vw);
     font-family: "Jost", sans-serif;
     color: $color_1;
     margin-top: 1vh;
@@ -41,8 +41,8 @@
       border: 1px solid $color_1;
       background-color: transparent;
       color: $color_1;
-      font-size: 1vw;
       padding: 1vw;
+      font-size: calc(9px + 0.5vw);
     }
   }
 }
@@ -61,7 +61,6 @@
     padding: 1vw;
     width: 100%;
     height: 100%;
-    font-size: 3vw;
     display: flex;
     justify-content: center;
     align-items: center;

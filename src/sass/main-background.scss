@@ -29,8 +29,9 @@
     position: absolute;
     top: 5%;
     left: 0;
-    font-size: 3.2vw;
+    font-size: calc(18px + 0.5vw);
     color: $color_3;
+    text-transform: uppercase;
   }
   &__img-wrapper {
     width: 50%;
@@ -63,19 +64,19 @@
     line-height: 1.2;
     & h4 {
       font-weight: bold;
-      font-size: 1vw;
+      font-size: calc(9px + 0.5vw);
       color: $color_4;
     }
     & h3 {
       font-family: "Jost", sans-serif;
       font-weight: bold;
-      font-size: 1.5vw;
+      font-size: calc(12px + 0.5vw);
       color: $color_4;
     }
     & h2 {
       font-family: "Jost", sans-serif;
       font-weight: bold;
-      font-size: 1.5vw;
+      font-size: calc(12px + 0.5vw);
       color: $color_3;
     }
   }
@@ -95,7 +96,7 @@
   }
   &__online {
     color: $color_1;
-    font-size: 20px;
+    font-size: calc(11px + 0.5vw);
     font-weight: bold;
   }
 }
@@ -112,7 +113,6 @@
     }
     &__title {
       position: unset;
-      font-size: 7vw;
     }
     &__img-wrapper {
       position: unset;
@@ -132,22 +132,10 @@
       margin-right: auto;
       margin-top: 2vh;
       margin-bottom: 2vh;
-      & h4 {
-        font-size: 2vw;
-      }
-      & h3 {
-        font-size: 2.5vw;
-      }
-      & h2 {
-        font-size: 2.5vw;
-      }
     }
     &__online-wrapper {
       position: unset;
       transform: translateY(0%);
-    }
-    &__online {
-      font-size: 3vw;
     }
   }
 }
