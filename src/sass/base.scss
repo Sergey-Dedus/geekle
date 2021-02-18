@@ -41,6 +41,15 @@ body {
   color: #fff;
 }
 
+@font-face {
+  // название шрифта(чтобы не запутаться лучше указать название папки со шрифтом)
+  font-family: "Bison";
+  // адрес шрифта и тип
+  src: url("../font/Bison-Bold.ttf") format("truetype");
+  font-style: normal;
+  font-weight: normal;
+}
+
 @media screen and (max-width: 767px) {
   html {
     min-width: 360px;

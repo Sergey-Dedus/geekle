@@ -5,13 +5,11 @@
   height: 12vh;
   display: flex;
   justify-content: center;
-  border: 1px solid white;
   &__wrapper {
     width: 70%;
     height: 100%;
     display: flex;
     justify-content: space-between;
-    border: 1px solid aqua;
   }
   &__logo {
     height: 100%;
@@ -36,12 +34,16 @@
     justify-content: space-between;
     min-width: 265px;
   }
-  &__title {
-  }
+
   &__link {
     text-decoration: none;
     font-size: 17px;
-    color: white;
+    color: $color_1;
+    font-family: "Bison", sans-serif;
+    transition: 0.5s;
+    &:hover {
+      color: $color_3;
+    }
   }
 }
 

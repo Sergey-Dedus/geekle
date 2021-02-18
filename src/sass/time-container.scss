@@ -8,7 +8,6 @@
   &__wrapper {
     width: 70%;
     height: 100%;
-    border: 1px solid green;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -23,6 +22,7 @@
     font-size: calc(8px + 0.5vw);
     color: $color_1;
     text-transform: uppercase;
+    font-family: "Bison", sans-serif;
   }
   &__description {
     font-size: calc(7px + 0.5vw);
@@ -43,6 +43,8 @@
       color: $color_1;
       padding: 1vw;
       font-size: calc(9px + 0.5vw);
+      font-weight: bold;
+      cursor: pointer;
     }
   }
 }
@@ -64,6 +66,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    font-weight: bold;
   }
 }
 
