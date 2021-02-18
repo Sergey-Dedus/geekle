@@ -1,3 +1,5 @@
+@import "./variable";
+
 .track-container {
   width: 100%;
   height: 100%;
@@ -28,6 +30,7 @@
   align-items: center;
   width: 80%;
   height: 100%;
+  margin-bottom: 40px;
   &__title {
     font-size: calc(40px + 0.5vw);
     font-weight: bold;
@@ -65,6 +68,7 @@
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
+    position: relative;
   }
   &__time-name-container {
     width: 20%;
@@ -127,6 +131,25 @@
     border: 1px solid $color_1;
     width: 48%;
     color: $color_1;
+  }
+}
+
+.nfr {
+  display: none;
+  width: 100%;
+
+  background-color: $color_3;
+  position: absolute;
+  bottom: 100%;
+
+  justify-content: center;
+  align-items: center;
+  & span {
+    font-size: calc(14px + 0.5vw);
+    width: 50%;
+    text-align: center;
+    font-weight: bold;
+    color: $color_2;
   }
 }
 
@@ -197,5 +220,8 @@
         color: $color_1;
       }
     }
+  }
+  .nfr {
+    display: flex;
   }
 }
